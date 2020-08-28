@@ -1,1 +1,2 @@
 # domi
+npm publish
