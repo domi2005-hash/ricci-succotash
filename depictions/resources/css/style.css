@@ -24,7 +24,7 @@ fieldset>a[href] {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
-  color: inherit;
+  color: white;
   font-family: inherit;
   font-size: inherit;
   font-style: inherit;
@@ -112,7 +112,7 @@ body.white {
   background: #c7ced5 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=')
 }
 .cytyle-flat body.pinstripe {
-  background: #efeff4
+  background: #000000
 }
 body {
 }
@@ -185,7 +185,7 @@ panel>block {
 panel>fieldset {
   position: relative;
   display: block;
-  background-color: #fff;
+  background-color: #000;
   margin-top: 9px;
   margin-bottom: 9px
 }
@@ -275,7 +275,7 @@ panel>label {
   color: #4d4d70
 }
 .cytyle-flat panel>label {
-  color: #6d6d72
+  color: #ffffff
 }
 .cytyle-faux panel>label {
   text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0;
@@ -482,12 +482,12 @@ fieldset>textarea {
 .cytyle-faux panel>fieldset>a,
 .cytyle-faux panel>fieldset>div,
 .cytyle-faux panel>fieldset>textarea {
-  border-bottom: 1px solid #999
+  border-bottom: 1px solid #fff
 }
 .cytyle-flat panel>fieldset>a,
 .cytyle-flat panel>fieldset>div,
 .cytyle-flat panel>fieldset>textarea {
-  border-bottom: 1px solid #c8c7cc
+  border-bottom: 1px solid #ffffff
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   .cytyle-flat.cytyle-hair panel>fieldset>a,
@@ -927,7 +927,8 @@ fieldset>a>div>div>input[type="checkbox"]:checked {
 fieldset>a>div>div>input[type="password"],
 fieldset>a>div>div>input[type="text"] {
   float: right;
-  text-align: right
+  text-align: center;
+  background: black;
 }
 fieldset>a>div>div>select {
   background-color: transparent;
@@ -963,7 +964,7 @@ fieldset>textarea.right {
 .cytyle-flat fieldset>a>div>div>input,
 .cytyle-flat fieldset>a>div>div>select,
 .cytyle-flat fieldset>textarea {
-  color: #8e8e9f
+  color: #ffffff;
 }
 fieldset>a.cytyle-up {
   -webkit-transition: background 0.3s ease-in
